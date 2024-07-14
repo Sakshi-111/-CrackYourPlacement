@@ -30,6 +30,10 @@ using namespace std;
         
 //     }
 // };
+         /* QUES 2*/
+
+
+
 
 // sort 0s 1s and 2s in a given array 
 
@@ -72,4 +76,28 @@ using namespace std;
 //        }
 //     }
   
+// };
+                 // QUES 3
+
+
+
+                 
+// leetcode 
+//26. Remove Duplicates from Sorted Array
+// class Solution {
+// public:
+//     int removeDuplicates(vector<int>& nums) {
+//          int k=1;
+         
+//         for(int i=1;i<nums.size();i++){
+           
+//             if(nums[i]!=nums[i-1]){
+//                 nums[k]=nums[i];
+//                 k++;
+
+//             }
+            
+//         }
+//         return k;
+//     }
 // };
