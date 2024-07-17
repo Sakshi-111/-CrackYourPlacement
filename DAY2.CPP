@@ -64,3 +64,19 @@
 //        }
 //     }
 // };
+
+//rotate array
+//anything mod n gives answwer in range of 0 to n-1 and array is in rage of n-1
+// class Solution {
+// public:
+
+//     void rotate(vector<int>& nums, int k) {
+//         vector<int>neww(nums.size());
+        
+//         for(int i=0;i<nums.size();i++){
+//             neww[(i+k)%nums.size()]=nums[i];
+//         }
+//         nums=neww;
+        
+//     }
+// };
