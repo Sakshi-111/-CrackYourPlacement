@@ -56,3 +56,23 @@
         
 //     };
 
+#include <iostream>
+using namespace std;
+ string strWithSingleSpace(string s){
+            for(int i=0;i<s.length();i++){
+                
+                 if(s[i]==' '){
+                    if(s[i+1]==s[i]){
+                       s.erase(i,1);
+                       i--; 
+                    }
+                }
+                
+            }
+            return s;
+           
+        }
+        int main(){
+            string s="blue is the  sky   with";
+            cout<<strWithSingleSpace(s);
+        }
